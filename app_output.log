@@ -1,0 +1,58 @@
+/Users/shubhams1/garage-week-project/app.py:29: DeprecationWarning: window_width is deprecated in version 0.23.0 and will be removed in version 0.26.0. Use Page.window.width instead.
+  page.window_width = 1280
+/Users/shubhams1/garage-week-project/app.py:30: DeprecationWarning: window_height is deprecated in version 0.23.0 and will be removed in version 0.26.0. Use Page.window.height instead.
+  page.window_height = 800
+/Users/shubhams1/garage-week-project/app.py:31: DeprecationWarning: window_min_width is deprecated in version 0.23.0 and will be removed in version 0.26.0. Use Page.window.min_width instead.
+  page.window_min_width = 800
+/Users/shubhams1/garage-week-project/app.py:32: DeprecationWarning: window_min_height is deprecated in version 0.23.0 and will be removed in version 0.26.0. Use Page.window.min_height instead.
+  page.window_min_height = 600
+Future exception was never retrieved
+future: <Future finished exception=LookupError("'todo' is not among the defined enum values. Enum name: taskstatus. Possible values: TODO, IN_PROGRESS, DONE, BLOCKED")>
+Traceback (most recent call last):
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/sql/sqltypes.py", line 1709, in _object_value_for_elem
+    return self._object_lookup[elem]  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'todo'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/flet_core/page.py", line 944, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "/Users/shubhams1/garage-week-project/app.py", line 97, in route_change
+    page.views.append(DashboardPage(page, app_state))
+                      ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/shubhams1/garage-week-project/frontend/pages/dashboard_page.py", line 21, in __init__
+    stats = TaskService.get_task_stats(app_state.get_user_id())
+  File "/Users/shubhams1/garage-week-project/backend/services/task_service.py", line 150, in get_task_stats
+    all_tasks = db.query(Task).filter(Task.user_id == user_id).all()
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~~~~~~~^^
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/engine/result.py", line 1774, in all
+    return self._allrows()
+           ~~~~~~~~~~~~~^^
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/engine/result.py", line 548, in _allrows
+    rows = self._fetchall_impl()
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/engine/result.py", line 1681, in _fetchall_impl
+    return self._real_result._fetchall_impl()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/engine/result.py", line 2275, in _fetchall_impl
+    return list(self.iterator)
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/orm/loading.py", line 220, in chunks
+    fetch = cursor._raw_all_rows()
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/engine/result.py", line 541, in _raw_all_rows
+    return [make_row(row) for row in rows]
+            ~~~~~~~~^^^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 22, in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 79, in sqlalchemy.cyextension.resultproxy._apply_processors
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/sql/sqltypes.py", line 1829, in process
+    value = self._object_value_for_elem(value)
+  File "/Users/shubhams1/garage-week-project/venv/lib/python3.13/site-packages/sqlalchemy/sql/sqltypes.py", line 1711, in _object_value_for_elem
+    raise LookupError(
+    ...<7 lines>...
+    ) from err
+LookupError: 'todo' is not among the defined enum values. Enum name: taskstatus. Possible values: TODO, IN_PROGRESS, DONE, BLOCKED

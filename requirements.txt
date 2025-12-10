@@ -1,0 +1,35 @@
+# Core Framework
+flet==0.24.1
+
+# Database (Python 3.13 compatible)
+sqlalchemy==2.0.44
+greenlet==3.2.4
+
+# Authentication & Security
+bcrypt==4.1.2
+pyjwt==2.8.0
+cryptography==41.0.7
+
+# API Requests
+requests==2.31.0
+
+# AI
+anthropic==0.25.0
+
+# MCP Framework (Model Context Protocol)
+# Note: Install with: pip install mcp-use (with hyphen, not underscore)
+# PyPI package name: mcp-use
+# Import in Python: from mcp_use import ...
+mcp-use>=1.5.0
+
+# LangChain for AI Agent (required by mcp-use MCPAgent)
+langchain-anthropic>=0.1.0
+langchain-ollama>=0.1.0
+langchain-core>=0.3.0
+
+# Integrations (Optional)
+slack-sdk==3.26.1
+
+# Utilities
+python-dotenv==1.0.0
+

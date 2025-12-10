@@ -1,0 +1,497 @@
+Kubernetes Stateful Resources Check - Wed Nov 26 12:36:12 IST 2025
+=====================================
+
+[Dev_VA6 - AWS] Service: accesscontrolservice - FOUND
+  Stateful resources:
+NAME                                                    AGE
+dbcluster.rds.services.k8s.aws/accesscontrolservicedb   497d
+
+NAME                                                                                             AGE
+dbclusterparametergroup.rds.services.k8s.aws/accesscontrolservicedb-ns-team-sign-micro-preview   497d
+
+NAME                                                                          STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-accesscontrolservicedb-instance-0   available
+
+NAME                                                        AGE
+dbsubnetgroup.rds.services.k8s.aws/accesscontrolservicedb   497d
+
+NAME                                                                      AGE
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-admin         497d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-application   497d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-reader        497d
+
+NAME                                                        AGE
+globalcluster.rds.services.k8s.aws/accesscontrolservicedb   497d
+
+[Dev_DEU1 - AWS] Service: accesscontrolservice - FOUND
+  Stateful resources:
+NAME                                                    AGE
+dbcluster.rds.services.k8s.aws/accesscontrolservicedb   496d
+
+NAME                                                                                             AGE
+dbclusterparametergroup.rds.services.k8s.aws/accesscontrolservicedb-ns-team-sign-micro-preview   496d
+
+NAME                                                                             STATUS
+dbinstance.rds.services.k8s.aws/eu-central-1-accesscontrolservicedb-instance-0   available
+
+NAME                                                        AGE
+dbsubnetgroup.rds.services.k8s.aws/accesscontrolservicedb   496d
+
+NAME                                                                      AGE
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-admin         496d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-application   496d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-reader        496d
+
+NAME                                                        AGE
+globalcluster.rds.services.k8s.aws/accesscontrolservicedb   496d
+
+[Stage_VA6 - AWS] Service: accesscontrolservice - FOUND
+  Stateful resources:
+NAME                                                    AGE
+dbcluster.rds.services.k8s.aws/accesscontrolservicedb   453d
+
+NAME                                                                                           AGE
+dbclusterparametergroup.rds.services.k8s.aws/accesscontrolservicedb-ns-team-sign-micro-stage   453d
+
+NAME                                                                          STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-accesscontrolservicedb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-accesscontrolservicedb-instance-1   available
+
+NAME                                                        AGE
+dbsubnetgroup.rds.services.k8s.aws/accesscontrolservicedb   453d
+
+NAME                                                                      AGE
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-admin         453d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-application   453d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-reader        453d
+
+NAME                                                        AGE
+globalcluster.rds.services.k8s.aws/accesscontrolservicedb   453d
+
+[Prod_VA6 - AWS] Service: accesscontrolservice - FOUND
+  Stateful resources:
+NAME                                                    AGE
+dbcluster.rds.services.k8s.aws/accesscontrolservicedb   326d
+
+NAME                                                                                          AGE
+dbclusterparametergroup.rds.services.k8s.aws/accesscontrolservicedb-ns-team-sign-micro-prod   326d
+
+NAME                                                                          STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-accesscontrolservicedb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-accesscontrolservicedb-instance-1   available
+
+NAME                                                        AGE
+dbsubnetgroup.rds.services.k8s.aws/accesscontrolservicedb   326d
+
+NAME                                                                      AGE
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-admin         326d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-application   326d
+dbuser.rds.services.k8s.aws.adobe.io/accesscontrolservicedb-reader        326d
+
+NAME                                                        AGE
+globalcluster.rds.services.k8s.aws/accesscontrolservicedb   326d
+
+[Stage_OR2_Failover - AWS] Service: adobesignbulkprocessor - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/adobesignbulkprocessordb   666d
+
+NAME                                                                                                      AGE
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessor                                       666d
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessordb-ns-team-sign-micro-stage-failover   643d
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessordb-stage                               628d
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessordb-stage-failover                      628d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-adobesignbulkprocessordb-instance-0   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessor     666d
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessordb   666d
+
+[Prod_VA6_Failover - AWS] Service: adobesignbulkprocessor - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+NAME                                                                  AGE
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessor   602d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-west-2-adobesignbulkprocessordb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-west-2-adobesignbulkprocessordb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessor     603d
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+[Prod_OR2_Failover - AWS] Service: adobesignbulkprocessor - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+NAME                                                                  AGE
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessor   602d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-adobesignbulkprocessordb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-adobesignbulkprocessordb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessor     603d
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+[Prod_IRL1_Failover - AWS] Service: adobesignbulkprocessor - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+NAME                                                                  AGE
+dbclusterparametergroup.rds.services.k8s.aws/adobesignbulkprocessor   602d
+
+NAME                                                                               STATUS
+dbinstance.rds.services.k8s.aws/eu-central-1-adobesignbulkprocessordb-instance-0   available
+dbinstance.rds.services.k8s.aws/eu-central-1-adobesignbulkprocessordb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessor     603d
+dbsubnetgroup.rds.services.k8s.aws/adobesignbulkprocessordb   603d
+
+[Stage_OR2_Failover - AWS] Service: advancedworkflowsconnect - FOUND
+  Stateful resources:
+NAME                                                         AGE
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnect-db   666d
+
+NAME                                                                                      AGE
+dbclusterparametergroup.rds.services.k8s.aws/advancedworkflowsconnect-db-stage-failover   666d
+dbclusterparametergroup.rds.services.k8s.aws/advancedworkflowsconnectdb                   666d
+
+NAME                                                                               STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnect-db-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnectdb-instance-0    
+
+NAME                                                             AGE
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnect-db   666d
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnectdb    666d
+
+[Prod_VA6_Failover - AWS] Service: advancedworkflowsconnect - FOUND
+  Stateful resources:
+NAME                                                         AGE
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnectdb    599d
+
+NAME                                                                                     AGE
+dbclusterparametergroup.rds.services.k8s.aws/advancedworkflowsconnect-db-prod-failover   599d
+dbclusterparametergroup.rds.services.k8s.aws/advancedworkflowsconnectdb                  599d
+
+NAME                                                                               STATUS
+dbinstance.rds.services.k8s.aws/us-west-2-advancedworkflowsconnect-db-instance-0   available
+dbinstance.rds.services.k8s.aws/us-west-2-advancedworkflowsconnect-db-instance-1   available
+dbinstance.rds.services.k8s.aws/us-west-2-advancedworkflowsconnectdb-instance-0    
+dbinstance.rds.services.k8s.aws/us-west-2-advancedworkflowsconnectdb-instance-1    
+
+NAME                                                             AGE
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnectdb    599d
+
+[Prod_OR2_Failover - AWS] Service: advancedworkflowsconnect - FOUND
+  Stateful resources:
+NAME                                                         AGE
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnectdb    599d
+
+NAME                                                                               STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnect-db-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnect-db-instance-1   available
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnectdb-instance-0    
+dbinstance.rds.services.k8s.aws/us-east-1-advancedworkflowsconnectdb-instance-1    
+
+NAME                                                             AGE
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnectdb    599d
+
+[Prod_IRL1_Failover - AWS] Service: advancedworkflowsconnect - FOUND
+  Stateful resources:
+NAME                                                         AGE
+dbcluster.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+
+NAME                                                                                  STATUS
+dbinstance.rds.services.k8s.aws/eu-central-1-advancedworkflowsconnect-db-instance-0   available
+dbinstance.rds.services.k8s.aws/eu-central-1-advancedworkflowsconnect-db-instance-1   available
+dbinstance.rds.services.k8s.aws/eu-central-1-advancedworkflowsconnectdb-instance-0    
+dbinstance.rds.services.k8s.aws/eu-central-1-advancedworkflowsconnectdb-instance-1    
+
+NAME                                                             AGE
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnect-db   599d
+dbsubnetgroup.rds.services.k8s.aws/advancedworkflowsconnectdb    599d
+
+[Prod_IND1 - AWS] Service: biengine - FOUND
+  Stateful resources:
+NAME                                        AGE
+dbcluster.rds.services.k8s.aws/bienginedb   588d
+
+NAME                                                               STATUS
+dbinstance.rds.services.k8s.aws/ap-south-1-bienginedb-instance-0   available
+dbinstance.rds.services.k8s.aws/ap-south-1-bienginedb-instance-1   available
+
+NAME                                            AGE
+dbsubnetgroup.rds.services.k8s.aws/bienginedb   588d
+
+NAME                                                          AGE
+dbuser.rds.services.k8s.aws.adobe.io/bienginedb-admin         587d
+dbuser.rds.services.k8s.aws.adobe.io/bienginedb-application   587d
+dbuser.rds.services.k8s.aws.adobe.io/bienginedb-reader        587d
+
+NAME                                            AGE
+globalcluster.rds.services.k8s.aws/bienginedb   588d
+
+
+=====================================
+Resuming Check - Wed Nov 26 13:29:45 IST 2025
+=====================================
+
+[Stage_OR2_Failover - AWS] Service: digitalidentitygateway - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/digitalidentitygatewaydb   666d
+
+NAME                                                                                   AGE
+dbclusterparametergroup.rds.services.k8s.aws/digitalidentitygatewaydb-stage-failover   666d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-digitalidentitygatewaydb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-digitalidentitygatewaydb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/digitalidentitygatewaydb   666d
+
+[Prod_VA6_Failover - AWS] Service: digitalidentitygateway - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-west-2-digitalidentitygatewaydb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-west-2-digitalidentitygatewaydb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+[Prod_OR2_Failover - AWS] Service: digitalidentitygateway - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+NAME                                                                            STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-digitalidentitygatewaydb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-digitalidentitygatewaydb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+[Prod_IRL1_Failover - AWS] Service: digitalidentitygateway - FOUND
+  Stateful resources:
+NAME                                                      AGE
+dbcluster.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+NAME                                                                               STATUS
+dbinstance.rds.services.k8s.aws/eu-central-1-digitalidentitygatewaydb-instance-0   available
+dbinstance.rds.services.k8s.aws/eu-central-1-digitalidentitygatewaydb-instance-1   available
+
+NAME                                                          AGE
+dbsubnetgroup.rds.services.k8s.aws/digitalidentitygatewaydb   602d
+
+[Dev_VA6 - AWS] Service: epis - FOUND
+  Stateful resources:
+NAME                                          AGE
+dbcluster.rds.services.k8s.aws/episdbschema   2y115d
+
+NAME                                                                                   AGE
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-ns-team-sign-micro-preview   2y96d
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-preview                      2y115d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-1   
+
+NAME                                              AGE
+dbsubnetgroup.rds.services.k8s.aws/episdbschema   2y115d
+
+NAME                                                            AGE
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-admin         2y96d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-application   2y96d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-reader        2y96d
+
+NAME                                              AGE
+
+[Stage_VA6 - AWS] Service: epis - FOUND
+  Stateful resources:
+NAME                                          AGE
+dbcluster.rds.services.k8s.aws/episdbschema   2y26d
+
+NAME                                                              AGE
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-stage   2y26d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-1   available
+
+NAME                                              AGE
+dbsubnetgroup.rds.services.k8s.aws/episdbschema   2y26d
+
+NAME                                                            AGE
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-admin         714d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-application   714d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-reader        714d
+
+NAME                                              AGE
+globalcluster.rds.services.k8s.aws/episdbschema   2y26d
+
+[Stage_OR2_Failover - AWS] Service: epis - FOUND
+  Stateful resources:
+NAME                                          AGE
+dbcluster.rds.services.k8s.aws/episdbschema   594d
+
+NAME                                                                       AGE
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-stage-failover   616d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-1   available
+
+NAME                                              AGE
+dbsubnetgroup.rds.services.k8s.aws/episdbschema   616d
+
+[Stage_NLD2 - Azure] Service: epis - FOUND
+  Stateful resources:
+NAME                                                PROVISIONED   MESSAGE
+resourcegroup.azure.microsoft.com/epis-stage-nld2   true          successfully provisioned
+
+NAME                                                              READY   SEVERITY   REASON      MESSAGE
+flexibleserver.dbformysql.azure.com/micro-epis-stage-nld2-mysql   True               Succeeded   
+
+NAME                                                                                     READY   SEVERITY   REASON            MESSAGE
+flexibleserversadministrator.dbformysql.azure.com/micro-stage-westeurope-epis-mysql-ad   False   Warning    WaitingForOwner   Owner "micro-stage-westeurope-epis-mysql, Group/Kind: dbformysql.azure.com/FlexibleServer" cannot be found. Progress is blocked until the owner is created.
+
+NAME                                                READY   SEVERITY   REASON      MESSAGE
+resourcegroup.resources.azure.com/epis-stage-nld2   True               Succeeded   
+
+[Prod_VA6 - AWS] Service: epis - FOUND
+  Stateful resources:
+NAME                                          AGE
+dbcluster.rds.services.k8s.aws/episdbschema   595d
+
+NAME                                                             AGE
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-prod   594d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-1   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-2   available
+
+NAME                                              AGE
+dbsubnetgroup.rds.services.k8s.aws/episdbschema   595d
+
+NAME                                                            AGE
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-admin         594d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-application   594d
+dbuser.rds.services.k8s.aws.adobe.io/episdbschema-reader        594d
+
+NAME                                              AGE
+
+[Prod_OR2_Failover - AWS] Service: epis - FOUND
+  Stateful resources:
+NAME                                          AGE
+dbcluster.rds.services.k8s.aws/episdbschema   595d
+
+NAME                                                                      AGE
+dbclusterparametergroup.rds.services.k8s.aws/episdbschema-prod-failover   594d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-episdbschema-instance-1   available
+
+NAME                                              AGE
+dbsubnetgroup.rds.services.k8s.aws/episdbschema   595d
+
+[Prod_VA7 - Azure] Service: epis - FOUND
+  Stateful resources:
+NAME                                              PROVISIONED   MESSAGE
+resourcegroup.azure.microsoft.com/epis-prod-va7   true          successfully provisioned
+
+NAME                                                            READY   SEVERITY   REASON      MESSAGE
+flexibleserver.dbformysql.azure.com/micro-epis-prod-va7-mysql   True               Succeeded   
+
+NAME                                                                                 READY   SEVERITY   REASON            MESSAGE
+flexibleserversadministrator.dbformysql.azure.com/micro-prod-eastus2-epis-mysql-ad   False   Warning    WaitingForOwner   Owner "micro-prod-eastus2-epis-mysql, Group/Kind: dbformysql.azure.com/FlexibleServer" cannot be found. Progress is blocked until the owner is created.
+
+NAME                                              READY   SEVERITY   REASON      MESSAGE
+resourcegroup.resources.azure.com/epis-prod-va7   True               Succeeded   
+
+[Stage_OR2_Failover - AWS] Service: webhook - FOUND
+  Stateful resources:
+NAME                                       AGE
+dbcluster.rds.services.k8s.aws/webhookdb   666d
+
+NAME                                                                    AGE
+dbclusterparametergroup.rds.services.k8s.aws/webhookdb                  666d
+dbclusterparametergroup.rds.services.k8s.aws/webhookdb-stage-failover   666d
+
+NAME                                                             STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-webhookdb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-webhookdb-instance-1   available
+
+NAME                                           AGE
+dbsubnetgroup.rds.services.k8s.aws/webhookdb   666d
+
+NAME                                                         AGE
+replicationgroup.elasticache.services.k8s.aws/webhookredis   666d
+
+NAME                                                         AGE
+cachesubnetgroup.elasticache.services.k8s.aws/webhookredis   666d
+
+[Prod_VA6_Failover - AWS] Service: webhook - FOUND
+  Stateful resources:
+NAME                                       AGE
+dbcluster.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                             STATUS
+dbinstance.rds.services.k8s.aws/us-west-2-webhookdb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-west-2-webhookdb-instance-1   available
+
+NAME                                           AGE
+dbsubnetgroup.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                         AGE
+cachesubnetgroup.elasticache.services.k8s.aws/webhookredis   588d
+
+[Prod_OR2_Failover - AWS] Service: webhook - FOUND
+  Stateful resources:
+NAME                                       AGE
+dbcluster.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                             STATUS
+dbinstance.rds.services.k8s.aws/us-east-1-webhookdb-instance-0   available
+dbinstance.rds.services.k8s.aws/us-east-1-webhookdb-instance-1   available
+
+NAME                                           AGE
+dbsubnetgroup.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                         AGE
+cachesubnetgroup.elasticache.services.k8s.aws/webhookredis   588d
+
+[Prod_IRL1_Failover - AWS] Service: webhook - FOUND
+  Stateful resources:
+NAME                                       AGE
+dbcluster.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                                STATUS
+dbinstance.rds.services.k8s.aws/eu-central-1-webhookdb-instance-0   available
+dbinstance.rds.services.k8s.aws/eu-central-1-webhookdb-instance-1   available
+
+NAME                                           AGE
+dbsubnetgroup.rds.services.k8s.aws/webhookdb   588d
+
+NAME                                                         AGE
+cachesubnetgroup.elasticache.services.k8s.aws/webhookredis   588d
+

@@ -1,0 +1,1871 @@
+Kubernetes Resources Check - Tue Nov 25 13:50:10 IST 2025
+=====================================
+
+[Dev_VA6] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      126d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      158d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   7      126d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   7      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   7      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   7      158d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   7      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   172.31.125.237   <none>        80/TCP    2y115d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          2y115d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           2y115d
+
+[Dev_NLD2] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      126d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      158d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      126d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      158d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.213.206   <none>        80/TCP    535d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          535d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           535d
+
+[Dev_DEU1] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      126d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      158d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   7      126d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   7      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   7      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   7      158d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   7      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   172.31.142.251   <none>        80/TCP    2y46d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          2y46d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           2y46d
+
+[Stage_VA6] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   7      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   7      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   7      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   7      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   7      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.227.27   <none>        80/TCP    725d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          725d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           725d
+
+[Stage_NLD2] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.220.61   <none>        80/TCP    500d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 2%/70%   2         10        2          500d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           500d
+
+[Stage_OR2] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   7      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   7      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   7      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   7      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   7      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.245.82   <none>        80/TCP    725d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 2%/70%   2         10        2          725d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           725d
+
+[Stage_IND1] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      152d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   7      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   7      152d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   7      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   7      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   7      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.172.167   <none>        80/TCP    725d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          725d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           725d
+
+[Prod_VA6] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.129.182   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_OR2] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.219.83   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_IND1] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.148.202   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_AUS3] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.157.8   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 0%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_DEU1] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.222.100   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_IRL1] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.179.75   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 0%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_JPN3] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.208.220   <none>        80/TCP    620d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 0%/70%   2         10        2          620d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           620d
+
+[Prod_NLD2] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.232.146   <none>        80/TCP    446d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 0%/70%   2         10        2          446d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           446d
+
+[Prod_SGP5] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.172.188   <none>        80/TCP    446d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 1%/70%   2         10        2          446d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           446d
+
+[Prod_VA7] Service: adobesign-remotesigner - FOUND
+  Resources with label app=adobesign-remotesigner:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   Opaque   5      124d
+secret/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   Opaque   5      132d
+secret/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   Opaque   5      122d
+secret/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   Opaque   5      157d
+secret/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   Opaque   5      153d
+
+NAME                                                                        DATA   AGE
+configmap/adobesign-remotesigner-38cc852840a00fc70d0bc892f706860f157a7a98   8      124d
+configmap/adobesign-remotesigner-4482b718cd23aa022b398cb2d9ddd1815d498129   8      132d
+configmap/adobesign-remotesigner-49326b0020b97ca110bd6a8e2768e119966044ba   8      122d
+configmap/adobesign-remotesigner-b2286a675310f3d89d5e3cd557e8b65cedb748d5   8      157d
+configmap/adobesign-remotesigner-e8fdd65e0273bf6ee1e430cf7786faca92729524   8      153d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-remotesigner   ClusterIP   192.168.136.213   <none>        80/TCP    446d
+
+NAME                                                         REFERENCE                           TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-remotesigner   Deployment/adobesign-remotesigner   cpu: 0%/70%   2         10        2          446d
+
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-remotesigner   2/2     2            2           446d
+
+[Dev_VA6] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   Opaque   3      194d
+secret/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   Opaque   3      299d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      180d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   6      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   6      381d
+configmap/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   6      194d
+configmap/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   6      299d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   6      180d
+
+NAME                          TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   172.31.78.84   <none>        80/TCP    2y115d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          2y115d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           2y115d
+
+[Dev_NLD2] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   Opaque   3      194d
+secret/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   Opaque   3      299d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      180d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   7      381d
+configmap/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   7      194d
+configmap/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   7      299d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      180d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.160.137   <none>        80/TCP    537d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 2%/70%   2         10        2          537d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           537d
+
+[Dev_DEU1] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   Opaque   3      194d
+secret/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   Opaque   3      299d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      180d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   6      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   6      381d
+configmap/adobesign-validator-c96213b6937d8026528e0a4a51169d173474bc31   6      194d
+configmap/adobesign-validator-e2d8083606819c9ce50d731a148e40b85d79e81b   6      299d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   6      180d
+
+NAME                          TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   172.31.177.58   <none>        80/TCP    2y46d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          2y46d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           2y46d
+
+[Stage_VA6] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      174d
+secret/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   Opaque   3      397d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   6      410d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   6      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   6      381d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   6      174d
+configmap/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   6      397d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.235.100   <none>        80/TCP    720d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          720d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           720d
+
+[Stage_NLD2] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      174d
+secret/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   Opaque   3      397d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   7      381d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      174d
+configmap/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   7      397d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.209.226   <none>        80/TCP    500d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          500d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           500d
+
+[Stage_OR2] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      174d
+secret/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   Opaque   3      397d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   6      410d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   6      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   6      381d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   6      174d
+configmap/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   6      397d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.152.150   <none>        80/TCP    720d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          720d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           720d
+
+[Stage_IND1] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   Opaque   3      381d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      174d
+secret/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   Opaque   3      397d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   6      410d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   6      301d
+configmap/adobesign-validator-4a04cd2db5ed143ada88a69b2847b18439010a78   6      381d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   6      174d
+configmap/adobesign-validator-f6cd60e50711a6ae3b9fbcb9ec7735d98744a7f7   6      397d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.227.144   <none>        80/TCP    720d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          720d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           720d
+
+[Prod_VA6] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.246.136   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_OR2] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.234.6   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_IND1] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.154.189   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_AUS3] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.142.112   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_DEU1] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.153.187   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_IRL1] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.252.253   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_JPN3] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.250.52   <none>        80/TCP    630d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          630d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           630d
+
+[Prod_NLD2] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.156.73   <none>        80/TCP    447d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          447d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           447d
+
+[Prod_SGP5] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.161.21   <none>        80/TCP    447d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 2%/70%   2         10        2          447d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           447d
+
+[Prod_VA7] Service: adobesign-validator - FOUND
+  Resources with label app=adobesign-validator:
+NAME                                                                  TYPE     DATA   AGE
+secret/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   Opaque   3      410d
+secret/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   Opaque   3      433d
+secret/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   Opaque   3      301d
+secret/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   Opaque   3      419d
+secret/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   Opaque   3      168d
+
+NAME                                                                     DATA   AGE
+configmap/adobesign-validator-184552b740c37942fd2db4dfc7432a4aaeee11d7   7      410d
+configmap/adobesign-validator-367bf743dfecf2d10ab5f5d9589f84520cc9f36f   7      433d
+configmap/adobesign-validator-42aa0c1a8aeab4c0b1a0323b2ea2c4efb547406d   7      301d
+configmap/adobesign-validator-7cfbce2cfaa8e6c50ad2ac9842570073076020fe   7      419d
+configmap/adobesign-validator-f11370230adef76371dce69fb7cae0be5c04e65f   7      168d
+
+NAME                          TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesign-validator   ClusterIP   192.168.244.64   <none>        80/TCP    447d
+
+NAME                                                      REFERENCE                        TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/adobesign-validator   Deployment/adobesign-validator   cpu: 1%/70%   2         10        2          447d
+
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+adobesign-validator   2/2     2            2           447d
+
+[Stage_NLD2] Service: adobesignbulkprocessor - FOUND
+  Resources with label app=adobesignbulkprocessor:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   Opaque   11     133d
+secret/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   Opaque   11     118d
+secret/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   Opaque   11     251d
+secret/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   Opaque   11     160d
+secret/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   Opaque   11     244d
+secret/adobesignbulkprocessor-rds-master-password                        Opaque   1      500d
+secret/adobesignbulkprocessordb-rds-master-password                      Opaque   1      500d
+
+NAME                                                                        DATA   AGE
+configmap/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   19     133d
+configmap/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   19     118d
+configmap/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   19     251d
+configmap/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   19     160d
+configmap/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   19     244d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesignbulkprocessor   ClusterIP   192.168.139.98   <none>        80/TCP    500d
+
+NAME                                            SECRETS   AGE
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesignbulkprocessor   2/2     2            2           500d
+
+[Stage_OR2_Failover] Service: adobesignbulkprocessor - FOUND
+  Resources with label app=adobesignbulkprocessor:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   Opaque   10     133d
+secret/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   Opaque   10     113d
+secret/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   Opaque   10     251d
+secret/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   Opaque   10     160d
+secret/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   Opaque   10     244d
+secret/adobesignbulkprocessor-rds-master-password                        Opaque   1      637d
+secret/adobesignbulkprocessordb-rds-master-password                      Opaque   1      642d
+
+NAME                                                                        DATA   AGE
+configmap/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   16     133d
+configmap/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   16     113d
+configmap/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   16     251d
+configmap/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   16     160d
+configmap/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   16     244d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesignbulkprocessor   ClusterIP   192.168.250.112   <none>        80/TCP    637d
+
+NAME                                            SECRETS   AGE
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesignbulkprocessor   2/2     2            2           637d
+
+[Prod_VA6_Failover] Service: adobesignbulkprocessor - FOUND
+  Resources with label app=adobesignbulkprocessor:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   Opaque   10     132d
+secret/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   Opaque   10     112d
+secret/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   Opaque   10     245d
+secret/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   Opaque   10     159d
+secret/adobesignbulkprocessor-dbcluster                                  Opaque   3      601d
+secret/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   Opaque   10     244d
+secret/adobesignbulkprocessor-rds-master-password                        Opaque   1      601d
+
+NAME                                                                        DATA   AGE
+configmap/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   16     132d
+configmap/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   16     112d
+configmap/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   16     245d
+configmap/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   16     159d
+configmap/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   16     244d
+
+NAME                             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/adobesignbulkprocessor   ClusterIP   192.168.144.58   <none>        80/TCP    601d
+
+NAME                                            SECRETS   AGE
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesignbulkprocessor   2/2     2            2           601d
+
+[Prod_OR2_Failover] Service: adobesignbulkprocessor - FOUND
+  Resources with label app=adobesignbulkprocessor:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   Opaque   10     132d
+secret/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   Opaque   10     112d
+secret/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   Opaque   10     245d
+secret/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   Opaque   10     159d
+secret/adobesignbulkprocessor-dbcluster                                  Opaque   3      601d
+secret/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   Opaque   10     244d
+secret/adobesignbulkprocessor-rds-master-password                        Opaque   1      601d
+
+NAME                                                                        DATA   AGE
+configmap/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   16     132d
+configmap/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   16     112d
+configmap/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   16     245d
+configmap/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   16     159d
+configmap/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   16     244d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesignbulkprocessor   ClusterIP   192.168.218.225   <none>        80/TCP    601d
+
+NAME                                            SECRETS   AGE
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesignbulkprocessor   2/2     2            2           601d
+
+[Prod_IRL1_Failover] Service: adobesignbulkprocessor - FOUND
+  Resources with label app=adobesignbulkprocessor:
+NAME                                                                     TYPE     DATA   AGE
+secret/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   Opaque   10     132d
+secret/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   Opaque   10     112d
+secret/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   Opaque   10     245d
+secret/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   Opaque   10     159d
+secret/adobesignbulkprocessor-dbcluster                                  Opaque   3      601d
+secret/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   Opaque   10     244d
+secret/adobesignbulkprocessor-rds-master-password                        Opaque   1      601d
+
+NAME                                                                        DATA   AGE
+configmap/adobesignbulkprocessor-4cff7b24de581b271e1031781e68264e9a2327cf   16     132d
+configmap/adobesignbulkprocessor-9043909318fd31bfd80a949536c41af909480a91   16     112d
+configmap/adobesignbulkprocessor-cb06526f1e61a219d32ae4ee976cc75ca405833e   16     245d
+configmap/adobesignbulkprocessor-d8b5cd4fbf79b2013ff09fc4c6fe8fcf26f002a5   16     159d
+configmap/adobesignbulkprocessor-e9fef299dddb428138bdb20708537d5b846b6205   16     244d
+
+NAME                             TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/adobesignbulkprocessor   ClusterIP   192.168.140.218   <none>        80/TCP    601d
+
+NAME                                            SECRETS   AGE
+  Deployment:
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+adobesignbulkprocessor   2/2     2            2           601d
+
+[Prod_JPN3] Service: biapi - FOUND
+  Resources with label app=biapi:
+NAME                                                    TYPE     DATA   AGE
+secret/biapi-01464e5ee67a2d4a337b0240d3888b535a0a7333   Opaque   4      416d
+secret/biapi-02afe38537b969b56de7bd333a4c449aaea5facf   Opaque   4      427d
+secret/biapi-07b416eaa267717eed4e4685ef83681cd7207de2   Opaque   4      434d
+secret/biapi-5074d9af0161095530777900021e14b8e0853575   Opaque   4      272d
+secret/biapi-6ca056a424a9d5b4fd54a8a527523c495cb37786   Opaque   4      229d
+
+NAME                                                       DATA   AGE
+configmap/biapi-01464e5ee67a2d4a337b0240d3888b535a0a7333   13     416d
+configmap/biapi-02afe38537b969b56de7bd333a4c449aaea5facf   13     427d
+configmap/biapi-07b416eaa267717eed4e4685ef83681cd7207de2   13     434d
+configmap/biapi-5074d9af0161095530777900021e14b8e0853575   13     272d
+configmap/biapi-6ca056a424a9d5b4fd54a8a527523c495cb37786   13     229d
+
+NAME            TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/biapi   ClusterIP   192.168.182.208   <none>        80/TCP    586d
+
+NAME                   SECRETS   AGE
+serviceaccount/biapi   0         586d
+
+  Deployment:
+NAME    READY   UP-TO-DATE   AVAILABLE   AGE
+biapi   2/2     2            2           586d
+
+[Prod_AUS3] Service: biengine - FOUND
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+biengine   2/2     2            2           586d
+
+
+=====================================
+Resuming Check - Tue Nov 25 14:20:37 IST 2025
+=====================================
+
+[Prod_AUS3] Service: biengine - FOUND
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+biengine   2/2     2            2           586d
+
+[Stage_NLD2] Service: bulksend - FOUND
+  Resources with label app=bulksend:
+NAME                                                       TYPE     DATA   AGE
+secret/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   Opaque   18     118d
+secret/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   Opaque   18     133d
+secret/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   Opaque   18     158d
+secret/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   Opaque   18     172d
+secret/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   Opaque   18     105d
+
+NAME                                                          DATA   AGE
+configmap/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   20     118d
+configmap/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   20     133d
+configmap/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   20     158d
+configmap/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   20     172d
+configmap/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   20     105d
+
+NAME               TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/bulksend   ClusterIP   192.168.134.195   <none>        80/TCP    496d
+
+NAME                      SECRETS   AGE
+serviceaccount/bulksend   0         496d
+
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+bulksend   2/2     2            2           496d
+
+[Stage_OR2_Failover] Service: bulksend - FOUND
+  Resources with label app=bulksend:
+NAME                                                       TYPE     DATA   AGE
+secret/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   Opaque   14     113d
+secret/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   Opaque   14     133d
+secret/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   Opaque   14     158d
+secret/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   Opaque   14     172d
+secret/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   Opaque   14     105d
+
+NAME                                                          DATA   AGE
+configmap/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   18     113d
+configmap/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   18     133d
+configmap/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   18     158d
+configmap/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   18     172d
+configmap/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   18     105d
+
+NAME               TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/bulksend   ClusterIP   192.168.212.68   <none>        80/TCP    642d
+
+NAME                      SECRETS   AGE
+serviceaccount/bulksend   0         642d
+
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+bulksend   2/2     2            2           642d
+
+[Prod_VA6_Failover] Service: bulksend - FOUND
+  Resources with label app=bulksend:
+NAME                                                       TYPE     DATA   AGE
+secret/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   Opaque   14     112d
+secret/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   Opaque   14     132d
+secret/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   Opaque   14     155d
+secret/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   Opaque   14     165d
+secret/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   Opaque   14     105d
+
+NAME                                                          DATA   AGE
+configmap/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   18     112d
+configmap/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   18     132d
+configmap/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   18     155d
+configmap/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   18     165d
+configmap/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   18     105d
+
+NAME               TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/bulksend   ClusterIP   192.168.137.199   <none>        80/TCP    599d
+
+NAME                      SECRETS   AGE
+serviceaccount/bulksend   0         599d
+
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+bulksend   5/5     5            5           599d
+
+[Prod_OR2_Failover] Service: bulksend - FOUND
+  Resources with label app=bulksend:
+NAME                                                       TYPE     DATA   AGE
+secret/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   Opaque   14     112d
+secret/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   Opaque   14     132d
+secret/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   Opaque   14     155d
+secret/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   Opaque   14     165d
+secret/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   Opaque   14     105d
+
+NAME                                                          DATA   AGE
+configmap/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   18     112d
+configmap/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   18     132d
+configmap/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   18     155d
+configmap/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   18     165d
+configmap/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   18     105d
+
+NAME               TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/bulksend   ClusterIP   192.168.182.171   <none>        80/TCP    599d
+
+NAME                      SECRETS   AGE
+serviceaccount/bulksend   0         599d
+
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+bulksend   5/5     5            5           599d
+
+[Prod_IRL1_Failover] Service: bulksend - FOUND
+  Resources with label app=bulksend:
+NAME                                                       TYPE     DATA   AGE
+secret/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   Opaque   14     112d
+secret/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   Opaque   14     132d
+secret/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   Opaque   14     155d
+secret/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   Opaque   14     165d
+secret/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   Opaque   14     105d
+
+NAME                                                          DATA   AGE
+configmap/bulksend-0bb307c746f5f3845b335bc40d5d9b090545e18d   18     112d
+configmap/bulksend-69ae14cead55fa8cfd3a37750793f790f286e36a   18     132d
+configmap/bulksend-96c567c5bd0bcc0266657b58b245882be8c7c232   18     155d
+configmap/bulksend-9d918b6be58adb7941e89867e02ca6469ec2eef0   18     165d
+configmap/bulksend-b2e4c09ffdb619b3f391163e297bcf73f5ca2d3d   18     105d
+
+NAME               TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/bulksend   ClusterIP   192.168.135.11   <none>        80/TCP    599d
+
+NAME                      SECRETS   AGE
+serviceaccount/bulksend   0         599d
+
+  Deployment:
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+bulksend   5/5     5            5           599d
+
+[Stage_NLD2] Service: bulktaskprocessor - FOUND
+  Resources with label app=bulktaskprocessor:
+NAME                                                                TYPE     DATA   AGE
+secret/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   Opaque   16     252d
+secret/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   Opaque   16     244d
+secret/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   Opaque   16     160d
+secret/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   Opaque   16     133d
+secret/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   Opaque   16     118d
+
+NAME                                                                   DATA   AGE
+configmap/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   20     252d
+configmap/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   20     244d
+configmap/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   20     160d
+configmap/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   20     133d
+configmap/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   20     118d
+
+NAME                        TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/bulktaskprocessor   ClusterIP   192.168.154.117   <none>        80/TCP    500d
+
+NAME                               SECRETS   AGE
+serviceaccount/bulktaskprocessor   0         500d
+
+  Deployment:
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+bulktaskprocessor   10/10   10           10          500d
+
+[Stage_OR2_Failover] Service: bulktaskprocessor - FOUND
+  Resources with label app=bulktaskprocessor:
+NAME                                                                TYPE     DATA   AGE
+secret/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   Opaque   13     252d
+secret/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   Opaque   13     244d
+secret/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   Opaque   13     160d
+secret/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   Opaque   13     133d
+secret/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   Opaque   13     113d
+
+NAME                                                                   DATA   AGE
+configmap/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   17     252d
+configmap/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   17     244d
+configmap/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   17     160d
+configmap/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   17     133d
+configmap/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   17     113d
+
+NAME                        TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/bulktaskprocessor   ClusterIP   192.168.141.108   <none>        80/TCP    642d
+
+NAME                               SECRETS   AGE
+serviceaccount/bulktaskprocessor   0         642d
+
+  Deployment:
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+bulktaskprocessor   10/10   10           10          642d
+
+[Prod_VA6_Failover] Service: bulktaskprocessor - FOUND
+  Resources with label app=bulktaskprocessor:
+NAME                                                                TYPE     DATA   AGE
+secret/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   Opaque   13     252d
+secret/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   Opaque   13     244d
+secret/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   Opaque   13     159d
+secret/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   Opaque   13     132d
+secret/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   Opaque   13     112d
+
+NAME                                                                   DATA   AGE
+configmap/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   17     252d
+configmap/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   17     244d
+configmap/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   17     159d
+configmap/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   17     132d
+configmap/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   17     112d
+
+NAME                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/bulktaskprocessor   ClusterIP   192.168.160.38   <none>        80/TCP    601d
+
+NAME                               SECRETS   AGE
+serviceaccount/bulktaskprocessor   0         601d
+
+  Deployment:
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+bulktaskprocessor   10/10   10           10          601d
+
+[Prod_OR2_Failover] Service: bulktaskprocessor - FOUND
+  Resources with label app=bulktaskprocessor:
+NAME                                                                TYPE     DATA   AGE
+secret/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   Opaque   13     252d
+secret/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   Opaque   13     244d
+secret/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   Opaque   13     159d
+secret/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   Opaque   13     132d
+secret/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   Opaque   13     112d
+
+NAME                                                                   DATA   AGE
+configmap/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   17     252d
+configmap/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   17     244d
+configmap/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   17     159d
+configmap/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   17     132d
+configmap/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   17     112d
+
+NAME                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/bulktaskprocessor   ClusterIP   192.168.249.82   <none>        80/TCP    601d
+
+NAME                               SECRETS   AGE
+serviceaccount/bulktaskprocessor   0         601d
+
+  Deployment:
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+bulktaskprocessor   10/10   10           10          601d
+
+[Prod_IRL1_Failover] Service: bulktaskprocessor - FOUND
+  Resources with label app=bulktaskprocessor:
+NAME                                                                TYPE     DATA   AGE
+secret/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   Opaque   13     252d
+secret/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   Opaque   13     244d
+secret/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   Opaque   13     159d
+secret/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   Opaque   13     132d
+secret/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   Opaque   13     112d
+
+NAME                                                                   DATA   AGE
+configmap/bulktaskprocessor-1f37a70cca58e97166c09fa66bbcc5f4d67b847d   17     252d
+configmap/bulktaskprocessor-2b482205c56b1da35bdc49fda8284082f8daf73d   17     244d
+configmap/bulktaskprocessor-6ab1986dd32ee12f83a0353310ca478e910e92b3   17     159d
+configmap/bulktaskprocessor-72a23f906241ba4467ae232cd4470962c64976f0   17     132d
+configmap/bulktaskprocessor-8ceeb36d4918803d4a93d0ce1ae814f552c19b6f   17     112d
+
+NAME                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/bulktaskprocessor   ClusterIP   192.168.134.46   <none>        80/TCP    601d
+
+NAME                               SECRETS   AGE
+serviceaccount/bulktaskprocessor   0         601d
+
+  Deployment:
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+bulktaskprocessor   10/10   10           10          601d
+
+[Dev_DEU1] Service: cascademcpserver - FOUND
+  Resources with label app=cascademcpserver:
+NAME                                                               TYPE     DATA   AGE
+secret/cascademcpserver-3203578c32f922c44a7d5c0f049f2aa45cffbbd9   Opaque   1      91d
+secret/cascademcpserver-3988cbf0f640bff4fe6fcba145c0e1237a2666b9   Opaque   1      97d
+secret/cascademcpserver-6d962221c9ee4911c787186e66d626a14dd09269   Opaque   1      89d
+secret/cascademcpserver-c65f9ec2b64670f2cc36d73e995c8edfbde151dc   Opaque   1      97d
+secret/cascademcpserver-d7567efba33febf1eebb95d3678187ebad84eff6   Opaque   1      95d
+
+NAME                                                                  DATA   AGE
+configmap/cascademcpserver-3203578c32f922c44a7d5c0f049f2aa45cffbbd9   5      91d
+configmap/cascademcpserver-3988cbf0f640bff4fe6fcba145c0e1237a2666b9   5      97d
+configmap/cascademcpserver-6d962221c9ee4911c787186e66d626a14dd09269   5      89d
+configmap/cascademcpserver-c65f9ec2b64670f2cc36d73e995c8edfbde151dc   5      97d
+configmap/cascademcpserver-d7567efba33febf1eebb95d3678187ebad84eff6   5      95d
+
+NAME                       TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+service/cascademcpserver   ClusterIP   172.31.252.66   <none>        80/TCP    108d
+
+NAME                              SECRETS   AGE
+serviceaccount/cascademcpserver   0         103d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+cascademcpserver   2/2     2            2           108d
+
+[Stage_VA6] Service: cascademcpserver - FOUND
+  Resources with label app=cascademcpserver:
+NAME                                                               TYPE     DATA   AGE
+secret/cascademcpserver-3203578c32f922c44a7d5c0f049f2aa45cffbbd9   Opaque   0      91d
+secret/cascademcpserver-3a8c2bb233b2d3ddd5c443e40b81ed02e76801d8   Opaque   0      97d
+secret/cascademcpserver-6d962221c9ee4911c787186e66d626a14dd09269   Opaque   0      89d
+secret/cascademcpserver-c65f9ec2b64670f2cc36d73e995c8edfbde151dc   Opaque   0      97d
+secret/cascademcpserver-d7567efba33febf1eebb95d3678187ebad84eff6   Opaque   0      95d
+
+NAME                                                                  DATA   AGE
+configmap/cascademcpserver-3203578c32f922c44a7d5c0f049f2aa45cffbbd9   2      91d
+configmap/cascademcpserver-3a8c2bb233b2d3ddd5c443e40b81ed02e76801d8   2      97d
+configmap/cascademcpserver-6d962221c9ee4911c787186e66d626a14dd09269   2      89d
+configmap/cascademcpserver-c65f9ec2b64670f2cc36d73e995c8edfbde151dc   2      97d
+configmap/cascademcpserver-d7567efba33febf1eebb95d3678187ebad84eff6   2      95d
+
+NAME                       TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/cascademcpserver   ClusterIP   192.168.238.98   <none>        80/TCP    102d
+
+NAME                              SECRETS   AGE
+serviceaccount/cascademcpserver   0         102d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+cascademcpserver   2/2     2            2           102d
+
+[Stage_NLD2] Service: crossshardmigration - FOUND
+  Resources with label app=crossshardmigration:
+NAME                                                                  TYPE     DATA   AGE
+secret/crossshardmigration-1e961bfb1e57e1b4f3eda1926967c822296a8147   Opaque   4      116d
+secret/crossshardmigration-2bee0eda5a45eb0e90cb2c66dc675d7a2b37bcf2   Opaque   4      96d
+secret/crossshardmigration-88d5d567f790dee533c8072fcbd940964e4a8bb0   Opaque   4      116d
+secret/crossshardmigration-c2fc52ea5c4dc873db34164fee5fdea9d033bcfc   Opaque   4      118d
+secret/crossshardmigration-e07bf786516293ec452f940f4ecc7727e0444c16   Opaque   4      130d
+secret/crossshardmigrationdb-rds-master-password                      Opaque   1      490d
+
+NAME                                                                     DATA   AGE
+configmap/crossshardmigration-1e961bfb1e57e1b4f3eda1926967c822296a8147   17     116d
+configmap/crossshardmigration-2bee0eda5a45eb0e90cb2c66dc675d7a2b37bcf2   17     96d
+configmap/crossshardmigration-88d5d567f790dee533c8072fcbd940964e4a8bb0   17     116d
+configmap/crossshardmigration-c2fc52ea5c4dc873db34164fee5fdea9d033bcfc   17     118d
+configmap/crossshardmigration-e07bf786516293ec452f940f4ecc7727e0444c16   17     130d
+
+NAME                          TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/crossshardmigration   ClusterIP   192.168.216.146   <none>        80/TCP    488d
+
+NAME                                   SECRETS   AGE
+serviceaccount/crossshardmigration     0         488d
+  Deployment:
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+crossshardmigration   2/2     2            2           488d
+
+[Stage_OR2_Failover] Service: epis - FOUND
+  Resources with label app=epis:
+NAME                                                   TYPE     DATA   AGE
+secret/epis-4b8f190c3deb05303fc82a2dffe470bdc9d7e677   Opaque   17     616d
+secret/epis-54a2a864fab9a319f5b1b9bf55318d1d4e0ca967   Opaque   17     642d
+secret/epis-6bf2c79801360b36a3a439b04ab83ac0ab131f25   Opaque   17     624d
+secret/epis-8ba23e169777ffa5ef529ee48e61ea1c86daa025   Opaque   17     614d
+secret/epis-9751c2ca934105bdcc5baa7c3d7fb914c128c6a9   Opaque   17     628d
+secret/epis-dacc1e120fe2dfd9832b8858b79a45011881745c   Opaque   17     623d
+secret/episdbschema-rds-master-password                Opaque   1      615d
+
+NAME                                                      DATA   AGE
+configmap/epis-4b8f190c3deb05303fc82a2dffe470bdc9d7e677   25     616d
+configmap/epis-54a2a864fab9a319f5b1b9bf55318d1d4e0ca967   25     642d
+configmap/epis-6bf2c79801360b36a3a439b04ab83ac0ab131f25   25     624d
+configmap/epis-8ba23e169777ffa5ef529ee48e61ea1c86daa025   25     614d
+configmap/epis-9751c2ca934105bdcc5baa7c3d7fb914c128c6a9   25     628d
+configmap/epis-dacc1e120fe2dfd9832b8858b79a45011881745c   25     623d
+
+NAME           TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/epis   ClusterIP   192.168.155.133   <none>        80/TCP    658d
+
+  Deployment:
+NAME   READY   UP-TO-DATE   AVAILABLE   AGE
+epis   0/2     1            0           658d
+
+[Prod_OR2_Failover] Service: epis - FOUND
+  Resources with label app=epis:
+NAME                                      TYPE     DATA   AGE
+secret/episdbschema-rds-master-password   Opaque   1      593d
+
+NAME                          SECRETS   AGE
+serviceaccount/episdbschema   0         593d
+
+[Prod_VA7] Service: epis - FOUND
+  Resources with label app=epis:
+NAME                                                   TYPE     DATA   AGE
+secret/epis-89d871795f1886dd67ea48852c83a548589026bf   Opaque   25     173d
+secret/epis-8a299c300dd714fc3a9394c21c0b301d1cf00354   Opaque   25     137d
+secret/epis-aa4e309381dc43a3bc4f99203c512bf4ffb00cde   Opaque   25     97d
+secret/epis-df01255843c2cb6052b933cb96960c342d15f10e   Opaque   25     159d
+secret/epis-e31d812e1d6dc5d09e8bf6a879fb3a493f032d54   Opaque   23     194d
+secret/episdbschema-rds-master-password                Opaque   1      476d
+
+NAME                                                      DATA   AGE
+configmap/epis-89d871795f1886dd67ea48852c83a548589026bf   34     173d
+configmap/epis-8a299c300dd714fc3a9394c21c0b301d1cf00354   34     137d
+configmap/epis-aa4e309381dc43a3bc4f99203c512bf4ffb00cde   34     97d
+configmap/epis-df01255843c2cb6052b933cb96960c342d15f10e   34     159d
+configmap/epis-e31d812e1d6dc5d09e8bf6a879fb3a493f032d54   33     194d
+
+NAME           TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/epis   ClusterIP   192.168.219.140   <none>        80/TCP    476d
+
+NAME                          SECRETS   AGE
+serviceaccount/epis           0         476d
+  Deployment:
+NAME   READY   UP-TO-DATE   AVAILABLE   AGE
+epis   0/0     0            0           476d
+
+[Stage_NLD2] Service: msft-graph-connector - FOUND
+  Resources with label app=msft-graph-connector:
+NAME                                                                   TYPE     DATA   AGE
+secret/msft-graph-connector-794b36b033b8516d9f276bf8b53eba271ff36056   Opaque   4      147d
+secret/msft-graph-connector-9d5c810b092e4cb5521244a1f6ec0911f6558187   Opaque   4      307d
+secret/msft-graph-connector-b8e61940bb49bb5491bb860eee2f91a72e7b41f7   Opaque   4      104d
+secret/msft-graph-connector-d1b9d53cad3266340bca1e4eba19e5e1b4c29975   Opaque   4      137d
+secret/msft-graph-connector-fe04ada5949e79d44a846ef7681136280898ce8c   Opaque   4      389d
+
+NAME                                                                      DATA   AGE
+configmap/msft-graph-connector-794b36b033b8516d9f276bf8b53eba271ff36056   8      147d
+configmap/msft-graph-connector-9d5c810b092e4cb5521244a1f6ec0911f6558187   8      307d
+configmap/msft-graph-connector-b8e61940bb49bb5491bb860eee2f91a72e7b41f7   8      104d
+configmap/msft-graph-connector-d1b9d53cad3266340bca1e4eba19e5e1b4c29975   8      137d
+configmap/msft-graph-connector-fe04ada5949e79d44a846ef7681136280898ce8c   8      389d
+
+NAME                           TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/msft-graph-connector   ClusterIP   192.168.148.55   <none>        80/TCP    500d
+
+NAME                                                       REFERENCE                         TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/msft-graph-connector   Deployment/msft-graph-connector   cpu: 0%/70%   2         8         2          500d
+  Deployment:
+NAME                   READY   UP-TO-DATE   AVAILABLE   AGE
+msft-graph-connector   2/2     2            2           500d
+
+[Stage_NLD2] Service: office365integration - FOUND
+  Resources with label app=office365integration:
+NAME                                                                   TYPE     DATA   AGE
+secret/office365integration-5c34036de95fe932a23f1b504e6aae83681bfc6d   Opaque   7      97d
+secret/office365integration-a074c06e2ff5007e5f9bfd042505be4dfff288d2   Opaque   7      105d
+secret/office365integration-a4c78e5f3cbe72645d1e14b9b3f7740fdfe18272   Opaque   7      103d
+secret/office365integration-b88804482ac6b07d193692c2fb234333232c73d3   Opaque   7      118d
+secret/office365integration-e524b65bbe6d51de9893ece2e9bfc6174af48c24   Opaque   7      118d
+
+NAME                                                                      DATA   AGE
+configmap/office365integration-5c34036de95fe932a23f1b504e6aae83681bfc6d   20     97d
+configmap/office365integration-a074c06e2ff5007e5f9bfd042505be4dfff288d2   20     105d
+configmap/office365integration-a4c78e5f3cbe72645d1e14b9b3f7740fdfe18272   20     103d
+configmap/office365integration-b88804482ac6b07d193692c2fb234333232c73d3   20     118d
+configmap/office365integration-e524b65bbe6d51de9893ece2e9bfc6174af48c24   20     118d
+
+NAME                           TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/office365integration   ClusterIP   192.168.175.136   <none>        80/TCP    495d
+
+NAME                                                       REFERENCE                         TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/office365integration   Deployment/office365integration   cpu: 0%/70%   2         10        2          495d
+
+  Deployment:
+NAME                   READY   UP-TO-DATE   AVAILABLE   AGE
+office365integration   2/2     2            2           495d
+
+[Stage_OR2_Failover] Service: privacyrequestprocessor - FOUND
+  Resources with label app=privacyrequestprocessor:
+NAME                                                                      TYPE     DATA   AGE
+secret/privacyrequestprocessor-256c2a07321cb9504c856c46e993c3fcf39e9c43   Opaque   13     619d
+secret/privacyrequestprocessor-511047f378c128b94405d41d01c7d12d631de7d4   Opaque   13     529d
+secret/privacyrequestprocessor-6ef7f0b7661124cb0510076dfd10760b96ba203f   Opaque   13     621d
+secret/privacyrequestprocessor-db16d7e648549d50435e194a62793b9f62b401c3   Opaque   13     623d
+secret/privacyrequestprocessor-f508f5501e8f4c553e6f70746224b6ff81f69456   Opaque   13     528d
+
+NAME                                                                         DATA   AGE
+configmap/privacyrequestprocessor-256c2a07321cb9504c856c46e993c3fcf39e9c43   5      619d
+configmap/privacyrequestprocessor-511047f378c128b94405d41d01c7d12d631de7d4   5      529d
+configmap/privacyrequestprocessor-6ef7f0b7661124cb0510076dfd10760b96ba203f   5      621d
+configmap/privacyrequestprocessor-db16d7e648549d50435e194a62793b9f62b401c3   5      623d
+configmap/privacyrequestprocessor-f508f5501e8f4c553e6f70746224b6ff81f69456   5      528d
+
+NAME                              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/privacyrequestprocessor   ClusterIP   192.168.193.31   <none>        80/TCP    633d
+
+NAME                                                          REFERENCE                            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/privacyrequestprocessor   Deployment/privacyrequestprocessor   cpu: 1%/70%   2         10        2          633d
+
+  Deployment:
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+privacyrequestprocessor   2/2     2            2           633d
+
+[Prod_OR2_Failover] Service: privacyrequestprocessor - FOUND
+  Resources with label app=privacyrequestprocessor:
+NAME                                                                      TYPE     DATA   AGE
+secret/privacyrequestprocessor-256c2a07321cb9504c856c46e993c3fcf39e9c43   Opaque   13     615d
+secret/privacyrequestprocessor-511047f378c128b94405d41d01c7d12d631de7d4   Opaque   13     528d
+secret/privacyrequestprocessor-f508f5501e8f4c553e6f70746224b6ff81f69456   Opaque   13     528d
+
+NAME                                                                         DATA   AGE
+configmap/privacyrequestprocessor-256c2a07321cb9504c856c46e993c3fcf39e9c43   6      615d
+configmap/privacyrequestprocessor-511047f378c128b94405d41d01c7d12d631de7d4   6      528d
+configmap/privacyrequestprocessor-f508f5501e8f4c553e6f70746224b6ff81f69456   6      528d
+
+NAME                              TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/privacyrequestprocessor   ClusterIP   192.168.208.107   <none>        80/TCP    615d
+
+NAME                                                          REFERENCE                            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/privacyrequestprocessor   Deployment/privacyrequestprocessor   cpu: 0%/70%   2         10        2          615d
+
+NAME                                                 MIN AVAILABLE   MAX UNAVAILABLE   ALLOWED DISRUPTIONS   AGE
+poddisruptionbudget.policy/privacyrequestprocessor   N/A             1                 1                     615d
+
+NAME                                                         GATEWAYS                                HOSTS                                                                                                                                                                                                                                            AGE
+  Deployment:
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+privacyrequestprocessor   2/2     2            2           615d
+
+[Stage_OR2_Failover] Service: webhook - FOUND
+  Resources with label app=webhook:
+NAME                                                      TYPE     DATA   AGE
+secret/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   Opaque   12     125d
+secret/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   Opaque   12     153d
+secret/webhook-6ad10702c177cb63264c3eef7d054f915717cd61   Opaque   12     118d
+secret/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   Opaque   12     189d
+secret/webhook-d48e70b3057737bec7f481b4336fe9d506211913   Opaque   12     180d
+secret/webhook-redis-auth                                 Opaque   1      665d
+secret/webhookdb-rds-master-password                      Opaque   1      647d
+
+NAME                                                         DATA   AGE
+configmap/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   16     125d
+configmap/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   16     153d
+configmap/webhook-6ad10702c177cb63264c3eef7d054f915717cd61   16     118d
+configmap/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   16     189d
+configmap/webhook-d48e70b3057737bec7f481b4336fe9d506211913   16     180d
+
+NAME              TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhook   ClusterIP   192.168.144.217   <none>        80/TCP    665d
+
+NAME                       SECRETS   AGE
+  Deployment:
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+webhook   2/2     2            2           665d
+
+[Prod_VA6_Failover] Service: webhook - FOUND
+  Resources with label app=webhook:
+NAME                                                      TYPE     DATA   AGE
+secret/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   Opaque   12     125d
+secret/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   Opaque   12     153d
+secret/webhook-630aa8307b9a48d14413be156125294636c85f70   Opaque   12     201d
+secret/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   Opaque   12     189d
+secret/webhook-d48e70b3057737bec7f481b4336fe9d506211913   Opaque   12     165d
+secret/webhook-redis-auth                                 Opaque   1      586d
+secret/webhookdb-rds-master-password                      Opaque   1      587d
+
+NAME                                                         DATA   AGE
+configmap/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   16     125d
+configmap/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   16     153d
+configmap/webhook-630aa8307b9a48d14413be156125294636c85f70   16     201d
+configmap/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   16     189d
+configmap/webhook-d48e70b3057737bec7f481b4336fe9d506211913   16     165d
+
+NAME              TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+service/webhook   ClusterIP   192.168.244.8   <none>        80/TCP    586d
+
+NAME                       SECRETS   AGE
+  Deployment:
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+webhook   2/2     2            2           586d
+
+[Prod_OR2_Failover] Service: webhook - FOUND
+  Resources with label app=webhook:
+NAME                                                      TYPE     DATA   AGE
+secret/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   Opaque   12     125d
+secret/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   Opaque   12     153d
+secret/webhook-630aa8307b9a48d14413be156125294636c85f70   Opaque   12     201d
+secret/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   Opaque   12     189d
+secret/webhook-d48e70b3057737bec7f481b4336fe9d506211913   Opaque   12     165d
+secret/webhook-redis-auth                                 Opaque   1      586d
+secret/webhookdb-rds-master-password                      Opaque   1      587d
+
+NAME                                                         DATA   AGE
+configmap/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   16     125d
+configmap/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   16     153d
+configmap/webhook-630aa8307b9a48d14413be156125294636c85f70   16     201d
+configmap/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   16     189d
+configmap/webhook-d48e70b3057737bec7f481b4336fe9d506211913   16     165d
+
+NAME              TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhook   ClusterIP   192.168.213.193   <none>        80/TCP    586d
+
+NAME                       SECRETS   AGE
+  Deployment:
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+webhook   2/2     2            2           586d
+
+[Prod_IRL1_Failover] Service: webhook - FOUND
+  Resources with label app=webhook:
+NAME                                                      TYPE     DATA   AGE
+secret/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   Opaque   12     125d
+secret/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   Opaque   12     153d
+secret/webhook-630aa8307b9a48d14413be156125294636c85f70   Opaque   12     201d
+secret/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   Opaque   12     189d
+secret/webhook-d48e70b3057737bec7f481b4336fe9d506211913   Opaque   12     165d
+secret/webhook-redis-auth                                 Opaque   1      586d
+secret/webhookdb-rds-master-password                      Opaque   1      587d
+
+NAME                                                         DATA   AGE
+configmap/webhook-529eba1a843f003e7ea642df0e1e589578c0a187   16     125d
+configmap/webhook-5f7801eed7fd411cb9ab3018c33130d56b6fc837   16     153d
+configmap/webhook-630aa8307b9a48d14413be156125294636c85f70   16     201d
+configmap/webhook-c0af82b3bb3e9bb5147b0476388851b370bd78f3   16     189d
+configmap/webhook-d48e70b3057737bec7f481b4336fe9d506211913   16     165d
+
+NAME              TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhook   ClusterIP   192.168.195.117   <none>        80/TCP    586d
+
+NAME                       SECRETS   AGE
+  Deployment:
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+webhook   2/2     2            2           586d
+
+[Stage_OR2_Failover] Service: webhooklistener - FOUND
+  Resources with label app=webhooklistener:
+NAME                                                              TYPE     DATA   AGE
+secret/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   Opaque   7      125d
+secret/webhooklistener-7373f368f29cc3d28bdf6661de86d40475fc9c8b   Opaque   7      237d
+secret/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   Opaque   7      154d
+secret/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   Opaque   7      203d
+secret/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   Opaque   7      236d
+
+NAME                                                                 DATA   AGE
+configmap/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   17     125d
+configmap/webhooklistener-7373f368f29cc3d28bdf6661de86d40475fc9c8b   17     237d
+configmap/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   17     154d
+configmap/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   17     203d
+configmap/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   17     236d
+
+NAME                      TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhooklistener   ClusterIP   192.168.146.204   <none>        80/TCP    664d
+
+NAME                                                  REFERENCE                    TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhooklistener   Deployment/webhooklistener   4/200     2         10        2          664d
+
+  Deployment:
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+webhooklistener   2/2     2            2           664d
+
+[Prod_VA6_Failover] Service: webhooklistener - FOUND
+  Resources with label app=webhooklistener:
+NAME                                                              TYPE     DATA   AGE
+secret/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   Opaque   7      125d
+secret/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   Opaque   7      286d
+secret/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   Opaque   7      154d
+secret/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   Opaque   7      200d
+secret/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   Opaque   7      236d
+
+NAME                                                                 DATA   AGE
+configmap/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   17     125d
+configmap/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   17     286d
+configmap/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   17     154d
+configmap/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   17     200d
+configmap/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   17     236d
+
+NAME                      TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhooklistener   ClusterIP   192.168.185.112   <none>        80/TCP    586d
+
+NAME                                                  REFERENCE                    TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhooklistener   Deployment/webhooklistener   47/200    2         10        2          586d
+
+  Deployment:
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+webhooklistener   2/2     2            2           586d
+
+[Prod_OR2_Failover] Service: webhooklistener - FOUND
+  Resources with label app=webhooklistener:
+NAME                                                              TYPE     DATA   AGE
+secret/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   Opaque   7      125d
+secret/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   Opaque   7      286d
+secret/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   Opaque   7      154d
+secret/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   Opaque   7      200d
+secret/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   Opaque   7      236d
+
+NAME                                                                 DATA   AGE
+configmap/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   17     125d
+configmap/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   17     286d
+configmap/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   17     154d
+configmap/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   17     200d
+configmap/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   17     236d
+
+NAME                      TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhooklistener   ClusterIP   192.168.162.101   <none>        80/TCP    586d
+
+NAME                                                  REFERENCE                    TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhooklistener   Deployment/webhooklistener   26/200    2         10        2          586d
+
+  Deployment:
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+webhooklistener   2/2     2            2           586d
+
+[Prod_IRL1_Failover] Service: webhooklistener - FOUND
+  Resources with label app=webhooklistener:
+NAME                                                              TYPE     DATA   AGE
+secret/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   Opaque   7      125d
+secret/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   Opaque   7      286d
+secret/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   Opaque   7      154d
+secret/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   Opaque   7      200d
+secret/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   Opaque   7      236d
+
+NAME                                                                 DATA   AGE
+configmap/webhooklistener-483ec7a5e9bc7649287154b71ff914381be11e3c   17     125d
+configmap/webhooklistener-97c85ac476119d55718e9f1802c3a4d67bbd7da0   17     286d
+configmap/webhooklistener-b48fd85b4bbe024a94114f7ddd375b53c19f7006   17     154d
+configmap/webhooklistener-e2ed2e39b54c0da2d7536e64e801da95e803072e   17     200d
+configmap/webhooklistener-f165a4760a68109914d204f1badd9e883f83d8dc   17     236d
+
+NAME                      TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhooklistener   ClusterIP   192.168.247.255   <none>        80/TCP    586d
+
+NAME                                                  REFERENCE                    TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhooklistener   Deployment/webhooklistener   145/200   2         10        10         586d
+
+  Deployment:
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+webhooklistener   10/10   10           10          586d
+
+[Stage_OR2_Failover] Service: webhookprocessor - FOUND
+  Resources with label app=webhookprocessor:
+NAME                                                               TYPE     DATA   AGE
+secret/webhookprocessor-87ddf6f29dbb54b7c4d17487c1bf68088b5da439   Opaque   9      122d
+secret/webhookprocessor-92a1d1ec6b02e937aebe4f15fcba30508dc3352b   Opaque   9      119d
+secret/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   Opaque   9      125d
+secret/webhookprocessor-ea16623ad3c38301d7a306de7b40bf03e4874a7e   Opaque   9      131d
+secret/webhookprocessor-fb4181285d81883850f00473c57130a7971fa0d9   Opaque   9      152d
+
+NAME                                                                  DATA   AGE
+configmap/webhookprocessor-87ddf6f29dbb54b7c4d17487c1bf68088b5da439   21     122d
+configmap/webhookprocessor-92a1d1ec6b02e937aebe4f15fcba30508dc3352b   21     119d
+configmap/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   19     125d
+configmap/webhookprocessor-ea16623ad3c38301d7a306de7b40bf03e4874a7e   19     131d
+configmap/webhookprocessor-fb4181285d81883850f00473c57130a7971fa0d9   19     152d
+
+NAME                       TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhookprocessor   ClusterIP   192.168.201.124   <none>        80/TCP    665d
+
+NAME                                                   REFERENCE                     TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhookprocessor   Deployment/webhookprocessor   0/250     2         8         2          665d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+webhookprocessor   2/2     2            2           665d
+
+[Prod_VA6_Failover] Service: webhookprocessor - FOUND
+  Resources with label app=webhookprocessor:
+NAME                                                               TYPE     DATA   AGE
+secret/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   Opaque   9      154d
+secret/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   Opaque   9      200d
+secret/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   Opaque   9      125d
+secret/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   Opaque   9      188d
+secret/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   Opaque   9      153d
+
+NAME                                                                  DATA   AGE
+configmap/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   19     154d
+configmap/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   19     200d
+configmap/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   19     125d
+configmap/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   19     188d
+configmap/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   19     153d
+
+NAME                       TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/webhookprocessor   ClusterIP   192.168.132.79   <none>        80/TCP    586d
+
+NAME                                                   REFERENCE                     TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhookprocessor   Deployment/webhookprocessor   0/250     4         8         4          586d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+webhookprocessor   4/4     4            4           586d
+
+[Prod_OR2_Failover] Service: webhookprocessor - FOUND
+  Resources with label app=webhookprocessor:
+NAME                                                               TYPE     DATA   AGE
+secret/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   Opaque   9      154d
+secret/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   Opaque   9      200d
+secret/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   Opaque   9      125d
+secret/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   Opaque   9      188d
+secret/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   Opaque   9      153d
+
+NAME                                                                  DATA   AGE
+configmap/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   19     154d
+configmap/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   19     200d
+configmap/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   19     125d
+configmap/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   19     188d
+configmap/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   19     153d
+
+NAME                       TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+service/webhookprocessor   ClusterIP   192.168.159.89   <none>        80/TCP    586d
+
+NAME                                                   REFERENCE                     TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhookprocessor   Deployment/webhookprocessor   14/250    4         8         4          586d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+webhookprocessor   4/4     4            4           586d
+
+[Prod_IRL1_Failover] Service: webhookprocessor - FOUND
+  Resources with label app=webhookprocessor:
+NAME                                                               TYPE     DATA   AGE
+secret/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   Opaque   9      154d
+secret/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   Opaque   9      200d
+secret/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   Opaque   9      125d
+secret/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   Opaque   9      188d
+secret/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   Opaque   9      153d
+
+NAME                                                                  DATA   AGE
+configmap/webhookprocessor-4fa47e75a1bd7edb1c200dc4df036140463238c6   19     154d
+configmap/webhookprocessor-5df3f6bc7b519848272d56d5839fe9265c26c7a0   19     200d
+configmap/webhookprocessor-bd4b1b68e49871584427f7ae58b831bc2b470bfa   19     125d
+configmap/webhookprocessor-c9573530567de356c56b63177ad380e2a3ead378   19     188d
+configmap/webhookprocessor-da62d06f31f6b6d2b304e9527055f5f8381c0c77   19     153d
+
+NAME                       TYPE        CLUSTER-IP        EXTERNAL-IP   PORT(S)   AGE
+service/webhookprocessor   ClusterIP   192.168.223.251   <none>        80/TCP    586d
+
+NAME                                                   REFERENCE                     TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/webhookprocessor   Deployment/webhookprocessor   5/250     4         8         4          586d
+
+  Deployment:
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+webhookprocessor   4/4     4            4           586d
+
